@@ -1,0 +1,9 @@
+---
+
+- include_tasks: default_settings_server.yml
+
+- include_tasks: install_docker.yml
+
+- include_tasks: install_minikube.yml
+
+- include_tasks: install_kubeclt.yml

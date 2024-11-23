@@ -1,0 +1,10 @@
+---
+time_zone: "Europe/Moscow"
+
+ansible_distribution_release: "20.04"
+
+minikube_version: "latest"
+
+minikube_download_dir: "{{ x_ansible_download_dir | default(ansible_facts.env.HOME + '/.ansible/tmp/downloads') }}"
+
+kubectl_version: "1.30.5"

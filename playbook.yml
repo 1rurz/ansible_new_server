@@ -1,0 +1,5 @@
+- name: Install min server
+  hosts: servers
+  become: yes
+  roles:
+    - server
